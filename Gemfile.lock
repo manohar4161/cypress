@@ -349,6 +349,7 @@ GEM
       rails-deprecated_sanitizer (>= 1.0.1)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
+    rails-perftest (0.0.7)
     rails_best_practices (1.19.0)
       activesupport
       code_analyzer (>= 0.4.8)
@@ -372,7 +373,7 @@ GEM
       declarative (< 0.1.0)
       declarative-option (< 0.2.0)
       uber (< 0.2.0)
-    require_all (1.4.0)
+    require_all (1.5.0)
     responders (2.3.0)
       railties (>= 4.2.0, < 5.1)
     rest-client (1.8.0)
@@ -395,6 +396,7 @@ GEM
       rainbow (>= 1.99.1, < 3.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-prof (0.15.9)
     ruby-progressbar (1.8.1)
     rubyzip (1.2.1)
     sass (3.4.22)
@@ -523,12 +525,14 @@ DEPENDENCIES
   pry-nav
   quality-measure-engine!
   rails (~> 4.2.7)
+  rails-perftest
   rails_best_practices
   remotipart (~> 1.2)
   responders
   roar-rails
   rolify
   rubocop (= 0.39)
+  ruby-prof (~> 0.15.9)
   sass-rails (~> 5.0.4)
   scss_lint
   sdoc (~> 0.4.0)
@@ -541,4 +545,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.15.4
+   1.16.1

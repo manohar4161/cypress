@@ -107,6 +107,8 @@ group :development, :test do
   gem 'parallel_tests'
   gem 'pry'
   gem 'pry-nav'
+  gem 'rails-perftest'
+  gem 'ruby-prof', '~> 0.15.9'
 end
 
 group :development do
