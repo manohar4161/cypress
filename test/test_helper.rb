@@ -82,8 +82,8 @@ class ActiveSupport::TestCase
         json[k] = value_or_bson(v)
       elsif v.is_a? Array
         json[k] = map_array(v)
-      elsif k == 'create_at' || k == 'updated_at'
-        json[k] = Time.at.local(v).in_time_zone
+      elsif k == 'created_at' || k == 'updated_at'
+        json[k] = Time.parse(v).in_time_zone
       end
     end
     json
